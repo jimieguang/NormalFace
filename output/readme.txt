@@ -1,0 +1,7 @@
+PFace指在求loss的过程中对概率P进行缩小，以要求更新时P获得更大的值
+
+DFace原理上与PFace一致，但缩小策略相反，p更小时pm更大
+
+naiveFace为标准softmax loss
+
+s下标代表着scale参数大小，未标注的为64

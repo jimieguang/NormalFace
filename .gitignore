@@ -1,0 +1,4 @@
+# 忽略 PyTorch 模型文件
+*.pt
+*.pth
+*.npy
